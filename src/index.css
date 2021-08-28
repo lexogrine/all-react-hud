@@ -33,7 +33,11 @@ code {
 .layout {
   width: 100%;
   height: 100%;
+  opacity: 1;
+  transition: opacity 1s;
   perspective: 500px;
 }
 
-
+.layout.hide {
+  opacity: 0;
+}

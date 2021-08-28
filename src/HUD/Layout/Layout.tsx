@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { configs } from "../../App";
 import { CameraTemplate } from './../CameraTemplate';
-export const Layout = () => {
+export const Layout = ({ show }: { show: boolean }) => {
   const [ hostsInfo, setHostsInfo ] = useState({ left: { username: '@GuyOne', name: 'Guy One'}, right: { username: '@GuyTwo', name: 'Guy Two'}})
 
   useEffect(() => {
@@ -22,7 +22,7 @@ export const Layout = () => {
   }, []);
 
   return (
-    <div className="layout">
+    <div className={`layout ${show ? 'show' : 'hide'}`}>
       <div className="cameras">
         <CameraTemplate username={hostsInfo.left.username} name={hostsInfo.left.name} />
         <CameraTemplate username={hostsInfo.right.username} name={hostsInfo.right.name} />

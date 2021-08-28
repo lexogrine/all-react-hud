@@ -19,14 +19,11 @@ export const hudIdentity = {
 };
 
 
-class App extends React.Component {
+class App extends React.Component<{}, { show: boolean }> {
 	constructor(props: {}) {
 		super(props);
 		this.state = {
-			game: null,
-			steamids: [],
-			match: null,
-			checked: false
+			show: true
 		}
 	}
 
@@ -62,11 +59,15 @@ class App extends React.Component {
 		socket.on("refreshHUD", () => {
 			window.top.location.reload();
 		});
+
+		actions.on("toggleVisibility", () => {
+			this.setState({ show: !this.state.show });
+		});
 	}
 
 	render() {
 		return (
-			<Layout />
+			<Layout show={this.state.show} />
 		);
 	}
 
