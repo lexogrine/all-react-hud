@@ -1,0 +1,28 @@
+[
+    {
+        "label": "Display settings",
+        "name":"display_settings",
+        "inputs": [
+            {
+                "type": "text",
+                "name": "left_username",
+                "label": "Left username"
+            },
+            {
+                "type": "text",
+                "name": "right_username",
+                "label": "Right username"
+            },
+            {
+                "type": "text",
+                "name": "left_name",
+                "label": "Left Name"
+            },
+            {
+                "type": "text",
+                "name": "right_name",
+                "label": "Right name"
+            }
+        ]
+    }
+]

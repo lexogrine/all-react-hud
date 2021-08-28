@@ -1,0 +1,13 @@
+{
+    "name":"Lexogrine All HUD",
+    "version":"1.0.0",
+    "author":"Lexogrine",
+    "game":"all",
+    "legacy": false,
+    "radar": true,
+    "killfeed": true,
+    "boltobserv":{
+        "css":true,
+        "maps":true
+    }
+}

@@ -1,0 +1,39 @@
+.cameras {
+    display: flex;
+    width: 100%;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+}
+.camera-template {
+    width: 530px;
+    height: 680px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    border: 2px solid #3756cd;
+    border-bottom: 15px solid #7ad3f8;
+    margin: 0 10px;
+
+    .identity {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        bottom: 20px;
+        width: 260px;
+        height: 77px;
+        justify-content: center;
+        text-transform: uppercase;
+        color: white;
+        padding: 0 20px;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-left: 15px solid #7ad3f8;
+        .name {
+            font-weight: 700;
+            font-size: 25px;
+        }
+        .username {
+            font-size: 11px;
+        }
+    }
+}

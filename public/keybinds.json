@@ -1,0 +1,6 @@
+[
+    {
+        "bind":"Alt+B",
+        "action":"toggleVisibility"
+    }
+]
