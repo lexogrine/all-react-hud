@@ -17,7 +17,7 @@ Very simple example of non game-specific HUD, consisting of simple overlay for c
 
 # Download
 
-To download it just click here: [DOWNLOAD HUD](https://github.com/lexogrine/csgo-react-hud/releases/latest)
+To download it just click here: [DOWNLOAD HUD](https://github.com/lexogrine/all-react-hud/releases/latest)
 
 # Instruction
 ## Setting up
