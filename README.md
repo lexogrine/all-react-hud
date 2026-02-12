@@ -2,14 +2,12 @@
 <p align="center">
 	<p align="center" style="font-weight:600; letter-spacing:1pt; font-size:20pt;">LEXOGRINE ALL HUD</p>
 	<p align="center"><img src="icon.png" alt="Logo" width="80" height="80"></p>
-	<p align="center" style="font-weight:400;">Powered by <a href='https://github.com/lexogrine/hud-manager'><strong>« Lexogrine HUD Manager »</strong></a></p>
+	<p align="center" style="font-weight:400;">Power by <a href='https://lhm.gg'><strong>LHM.gg</strong></a></p>
 </p>
 
-# Lexogrine All HUD
+# All React HUD for [LHM.gg](https://lhm.gg)
 
-  
-
-Very simple example of non game-specific HUD, consisting of simple overlay for camfeed for hosts / commentators.
+A lightweight, game-agnostic HUD template featuring camera overlays for hosts and commentators. It’s the basic building block of building customized HUDs and spectator overlays for the [LHM.gg](https://lhm.gg) platform.
 
 ## Keybinds:
 ### **Left Alt + B**
@@ -77,3 +75,12 @@ actions.on("toggleTrivia", () => {
 });
 ```
 Keybinds listener works on the same object as action input, in this case however there are no parameter to retrieve.
+
+## About
+
+Lexogrine is a premier React development company and AI software development house, delivering high-end AI, web, and mobile design services to global partners. In addition to bespoke development, Lexogrine provides a suite of innovative applications, such as LHM.gg, designed to transform professional collaboration and streamline industry-specific workflows.
+
+We are experts in cutting-edge AI, web, mobile, and cloud development. Our toolkit features TypeScript, Python, LLMs, React, React Native, Node.js, Prisma, Medusa, PyTorch, AWS, and Google Cloud Platform.
+
+Building on over 5 years of experience, Lexogrine has successfully completed hundreds of projects, providing scalable and future-proof solutions to businesses across the globe.
+
